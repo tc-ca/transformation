@@ -1,49 +1,54 @@
 [
   {
-    "title": "TC Talks",
-    "start": "2020-09-01",
+    "title": "Webinar - Working remotely: Establishing social connections with remote teams",
+    "start": "2020-09-10",
     "url": "#event1",
     "classNames": "orange"
   },
   {
-    "title": "Conference Series",
-    "start": "2020-09-07",
-    "end": "2020-09-10",
+    "title": "Webinar - Working remotely: Onboarding and Offboarding",
+    "start": "2020-09-15",
     "url": "#event2",
     "classNames": "orange"
   },
   {
     "id": "999",
-    "title": "Webinar",
+    "title": "Webinar - Working remotely: Tools, Tips and Tricks ",
     "start": "2020-09-09",
     "url": "#event3",
     "classNames": "blue"
   },
   {
     "id": "999",
-    "title": "Webinar",
+    "title": "Webinar - Working remotely: Returning to the ",
+    "start": "2020-09-22",
+    "url": "#event3",
+    "classNames": "blue"
+  },
+  {
+    "id": "999",
+    "title": "Webinar - Working remotely: Employee survey results and insights ",
+    "start": "2020-09-24",
+    "url": "#event3",
+    "classNames": "blue"
+  },
+  {
+    "id": "999",
+    "title": "Remote Work Panel Series",
+    "start": "2020-09-09",
+    "url": "#event3",
+    "classNames": "blue"
+  },
+  {
+    "id": "999",
+    "title": "Remote Work Panel Series",
     "start": "2020-09-16",
     "url": "#event3",
     "classNames": "blue"
   },
   {
-    "id": "999",
-    "title": "Webinar",
+    "title": "Twitter chat on remote work",
     "start": "2020-09-23",
-    "url": "#event3",
-    "classNames": "blue"
-  },
-  {
-    "id": "999",
-    "title": "Webinar",
-    "start": "2020-09-30",
-    "url": "#event3",
-    "classNames": "blue"
-  },
-  {
-    "title": "Workshop",
-    "start": "2020-09-14",
-    "end": "2020-09-15",
     "url": "#event4",
     "classNames": "green"
   },
