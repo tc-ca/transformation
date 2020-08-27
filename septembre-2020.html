@@ -42,6 +42,36 @@
      ga('send', 'pageview');
    </script>
    <!-- End Google Analytics -->
+   <!-- FullCalendar install -->
+  <link href='/transformation/fullcalendar/core/main.css' rel='stylesheet' />
+  <link href='/transformation/fullcalendar/daygrid/main.css' rel='stylesheet' />
+  <link href='/transformation/fullcalendar/bootstrap/main.css' rel='stylesheet' />
+
+  <script src='/transformation/fullcalendar/core/main.js'></script>
+  <script src='/transformation/fullcalendar/daygrid/main.js'></script>
+  <script src='/transformation/fullcalendar/bootstrap/main.js'></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        plugins: ['dayGrid'],
+        themeSystem: 'bootstrap',
+        events: '/transformation/fullcalendar/events.json',
+        initialDate: '2020-09-30',
+        validRange: {
+          start: '2020-09-01',
+          end: '2020-10-01' // calendar will show up to but not including this day
+        },
+        showNonCurrentDates: false,
+        headerToolbar: false,
+        fixedWeekCount: false
+      });
+      calendar.render();
+    });
+  </script>
+  <!-- end FullCalendar code -->
 </head>
 
 <body>
