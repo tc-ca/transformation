@@ -4,30 +4,30 @@
 /* Header - compatible with Alt Nav */
 header.header {
 	position:relative;
-	height:400px; 
+	height:400px;
 	margin-bottom:50px;
 }
 .header-image {
-	position:absolute; 
+	position:absolute;
 	left:0;
 	top:0;
 	background-size: cover;
-	width:100%; 
+	width:100%;
 	z-index:-10;
 	height:400px;
 }
 .header-icon {
-	width:150px; 
-	margin:0 auto; 
-	padding:50px 0 30px 0; 
+	width:150px;
+	margin:0 auto;
+	padding:50px 0 30px 0;
 }
 .header-icon img {
 	width:100%;
 	border-radius:80px;
 }
 .header h1 {
-	color:#fff; 
-	text-align:center; 
+	color:#fff;
+	text-align:center;
 	font-size:32pt;
 	margin-top:0;
 }
@@ -36,8 +36,8 @@ header.header {
 	header.header {
 		position:unset;
 	}
-	.header-image { 
-		height:530px; 
+	.header-image {
+		height:530px;
 		top:20px;
 	}
 }
@@ -46,7 +46,7 @@ header.header {
 
 .carousel-item {
 	height:500px;
-	overflow:hidden; 
+	overflow:hidden;
 	background-size:cover;
 	box-shadow:inset 0 0 0 2000px rgba(255,255,255, 0.5);
 }
@@ -186,11 +186,11 @@ header.header {
 }
 .info-btn a {
 	font-size: 16px;
-	text-transform:uppercase;	
+	text-transform:uppercase;
 	font-weight:bold;
 }
 .info-btn a img {
-	width:20px;	
+	width:20px;
 	position:relative;
 	top:-1px;
 }
@@ -227,7 +227,7 @@ header.header {
 .event-content hr {
 	width:90%;
 	margin:15px;
-	border-top: 2px solid #da5a26;
+	border-top: 2px solid #fff;
 }
 .event-content span {
 	font-weight:bold;
@@ -251,11 +251,11 @@ header.header {
 }
 .event-btn a {
 	font-size: 16px;
-	text-transform:uppercase;	
+	text-transform:uppercase;
 	font-weight:bold;
 }
 .event-btn a img {
-	width:20px;	
+	width:20px;
 	position:relative;
 	top:-1px;
 }
