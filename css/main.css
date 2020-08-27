@@ -183,11 +183,11 @@ a.internal::after {
 /* FullCalendar styling */
 
 .fc-toolbar {
-	display:none impor !important;
+	/*display:none !important;*/
 }
 
 .fc-right {
-	/*display:none;*/
+	display:none;
 }
 .fc-event-container .orange {
 	background-color:#df6420;
