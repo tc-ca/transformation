@@ -182,6 +182,10 @@ a.internal::after {
 
 /* FullCalendar styling */
 
+.fc-toolbar {
+	display:none;
+}
+
 .fc-right {
 	/*display:none;*/
 }
