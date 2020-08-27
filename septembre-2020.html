@@ -47,8 +47,32 @@
 <body>
 
 
-<!-- Load header and define FR page -->
-<div w3-include-html="/transformation/incl/header-fr.html" lang="/transformation/home"></div> 
+<!-- Header -->
+<!--  Skip header begins  -->
+<div id="cn-skip-head">
+  <ul id="cn-tphp">
+    <li id="cn-sh-link-1"><a href="#cn-cont">Passer au contenu principal</a></li>
+    <li id="cn-sh-link-2"><a href="#cn-nav">Passer au pied de page</a></li>
+  </ul>
+</div>
+
+<div class="top-gap"></div>
+
+<!-- Nav -->
+<nav class="navbar navbar-expand-xl navbar-light">
+   <a class="navbar-brand navbar-brand-fr" href="/transfo/accueil"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> 
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+            <!-- Language toggle -->
+         <li class="nav-item" id="lang-toggle">
+            <a class="nav-link" id="lang-link" href="/transformation/september-2020"> English </a>
+         </li>
+    </ul>
+</nav>
+<span id="cn-cont" />
 
 
         <!-- ***** CONTENT GOES HERE ***** -->
@@ -207,8 +231,33 @@
         <!-- ***** CONTENT END ***** -->
         
 
-<!-- Load Footer -->
-<div w3-include-html="/transformation/incl/footer-fr.html"></div> 
+<!-- Footer -->
+
+<footer class="footer" id="cn-nav">
+  <div class="footer-content">
+    <div class="container">
+      <div class="row">
+          <div class="d-none d-md-block col-md-4" id="TC-logo">
+            <a href="https://tc.canada.ca/fr"><img src="/transfo/images/tc-flag-signature.svg" class="img-fluid" alt="Logo de mot-symbole de Transports Canada" /></a>
+          </div>
+          <div class="col-md-4" id="back-to-top">
+            <a href="#">
+                <span style="font-size:1.5em">&#9650;</span>
+                <br/>
+                <span>RETOUR EN HAUT</span>
+            </a>
+          </div>
+          <div class="col-md-4" id="questions">
+            <p><strong>Des questions? Commentaires?</strong></p>
+            <p><a href="mailto:TC.TransformationGroup-GroupeTransformation.TC@tc.gc.ca">Nous sommes là pour vous aider.</a></p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  <img id=footer-pattern" src="/transfo/images/tc-banner-update.svg" alt="Modèle de marque de Transports Canada">
+</footer>
 
 </body>
 
