@@ -127,10 +127,10 @@ a.internal::after {
 	background-repeat:no-repeat;
 }
 .navbar-brand-en {
-	background-image: url(/transfo/images/tc-transformation-logo.svg);
+	background-image: url(/transformation/images/tc-transformation-logo.svg);
 }
 .navbar-brand-fr {
-	background-image: url(/transfo/images/tc-transformation-logo-fr.svg);
+	background-image: url(/transformation/images/tc-transformation-logo-fr.svg);
 }
 .navbar img {
 	width: 100%;
