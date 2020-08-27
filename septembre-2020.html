@@ -51,6 +51,7 @@
   <script src='/transformation/fullcalendar/daygrid/main.js'></script>
   <script src='/transformation/fullcalendar/bootstrap/main.js'></script>
 
+  <script src='/transformation/fullcalendar/locale/fr-ca.js'></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var calendarEl = document.getElementById('calendar');
@@ -58,6 +59,7 @@
       var calendar = new FullCalendar.Calendar(calendarEl, {
         plugins: ['dayGrid'],
         themeSystem: 'bootstrap',
+        locale: 'fr-ca',
         events: '/transformation/fullcalendar/events.json',
         initialDate: '2020-09-30',
         validRange: {
